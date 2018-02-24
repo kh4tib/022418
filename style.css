@@ -101,7 +101,7 @@ html {
 }
 
 .main-description {
-    width: 30%;
+    max-width: 30rem;
     font-size: 1rem;
     letter-spacing: .1rem;
     font-family: 'Khand', sans-serif;
