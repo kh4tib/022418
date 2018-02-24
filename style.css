@@ -1,0 +1,174 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: #161616;
+}
+
+/* Scroll Bar Style */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #161616; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    transition: 100ms ease-in-out; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .5);
+    transition: 100ms ease-in-out;
+}
+
+/* Main Section Styles */
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.main-content-logo {
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.main-content-logo span {
+    font-weight: 400;
+    margin-left: .2rem;
+    color: rgba(255, 255, 255, .5);
+}
+
+.main-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-subtitle {
+    font-family: 'Khand', sans-serif;
+    font-weight: 300;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.main-description {
+    width: 30%;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+.main-content-footer {
+    width: 100%;
+    display: flex;
+}
+
+.main-content-footer nav {
+    margin: auto;
+}
+
+.main-content-footer a {
+    margin: .5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Main Image Styles */
+
+.main-images {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 75%;
+}
+
+.main-image-one {
+    align-self: flex-start;
+    width:40%;
+    height: 70%;
+    background: url(https://media.giphy.com/media/26FLeMrUDUuQC0Ss0/giphy.gif) center center / cover no-repeat;
+    z-index: -1;
+}
+
+.main-image-two {
+    align-self: flex-end;
+    width:30%;
+    height: 60%;
+    background: url(https://media.giphy.com/media/HZrl3YqJZPruU/giphy.gif) center center / cover no-repeat;
+    z-index: -1;
+}
+
+.main-image-three {
+    align-self: flex-start;
+    width:40%;
+    height: 30%;
+    background: url(https://media.giphy.com/media/13g0j8a5ZPiMgw/giphy.gif) center center / cover no-repeat;
+    z-index: -1;
+}
+
+.main-image-four {
+    align-self: flex-end;
+    width:60%;
+    height: 60%;
+    background: url(https://media.giphy.com/media/lXiRsXOUUUdfHCOOY/giphy.gif) center center / cover no-repeat;
+    z-index: 1;
+}
